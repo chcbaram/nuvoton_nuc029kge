@@ -82,7 +82,7 @@ target_link_options(${EXECUTABLE} PRIVATE
   -lm
   -lstdc++
   -lsupc++
-  -lnosys
+  # -lnosys
   -Wl,-Map=${PRJ_NAME}.map,--cref
   -Wl,--gc-sections
   -Xlinker -print-memory-usage -Xlinker
